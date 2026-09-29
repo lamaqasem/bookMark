@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.form-bookmark{
+    width:90%;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    margin:30px;
+    border-radius: 10px;
+    padding:20px;
+}
+
+.form-group{
+    padding:5px;
+}
+
+input{
+    width:100%;
+    padding:10px ; 
+    border: 1px solid rgb(209,131,169);
+    border-radius: 7px;
+    transition: border .4 ;
+    outline: none;
+}
+
+input:focus {
+    border:2px solid rgb(75,21,53);
+}
+
+button{
+    background-color: rgb(243,200,221);
+    color:rgb(75,21,53);
+    padding:10px 20px;
+    border:none;
+    cursor :pointer ; 
+    border-radius: 7px;
+    transition :background-color .3;
+}
+
+button:hover{
+    background-color: rgb(205, 93, 147);
+}
+
+table {
+    width:90%;
+    margin: 30px;
+}
+
+th , td {
+    border : 1.5px solid rgb(128, 37, 92); 
+    text-align: center;
+    padding:20px;
+}
+
+thead{
+    background-color:rgb(243,200,221);
+    color:rgb(75,21,53);
+}
+
+tbody tr:nth-child(even){
+    background-color: rgb(243,200,221);
+}
